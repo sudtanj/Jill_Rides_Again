@@ -1,5 +1,5 @@
 # Jill Rides Again Problem Analysis - UVa Judges
-An problem analysis project about Maximum Subarray Problem in Universitas Pelita Harapan solved by using Greedy Algorithm and Dynamic Algorithm.
+A problem analysis project about Maximum Subarray Problem in Universitas Pelita Harapan solved by using Greedy Algorithm and Dynamic Algorithm.
 
 ## Project Member
 | No | Profile Picture | Member Name | Github Userid | Student Id Number |
