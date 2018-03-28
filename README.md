@@ -10,5 +10,10 @@ an problem analysis project in Universitas Pelita Harapan solved by using Greedy
 | 4. | <img src="https://avatars.githubusercontent.com/sudtanj" width=100 height=100/> | Sudono Tanjung | <a title="@sudtanj" href="https://github.com/sudtanj">@sudtanj</a> |              				 00000012273 |
 
 ## Greedy Algorithm
+A greedy algorithm is an algorithmic paradigm that follows the problem solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum. In many problems, a greedy strategy does not in general produce an optimal solution, but nonetheless a greedy heuristic may yield locally optimal solutions that approximate a global optimal solution in a reasonable time.
+
+### Brute Force Algorithm
 
 ## Dynamic Algorithm
+
+### Kadane’s Algorithm
