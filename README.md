@@ -17,6 +17,126 @@ Brute-force search is an exhaustive method that checks all possibilities for the
 
 The running time of this algorithm is O(n<sup>2</sup>).
 
+#### Test-case
+Input
+```
+3
+3
+  -1
+   6
+10
+   4
+  -5
+   4
+  -3
+   4
+   4
+  -4
+   4
+  -5
+4
+  -2
+  -3
+  -4
+```
+Output
+```
+The nicest part of route 1 is between stops 2 and 3
+The nicest part of route 2 is between stops 3 and 9
+Route 3 has no nice parts
+```
+Input
+```
+10
+5
+21
+22
+64
+-23
+9
+-94
+-67
+76
+82
+-91
+-90
+-90
+32
+9
+53
+-77
+-54
+2
+20
+20
+-38
+47
+6
+-63
+85
+40
+-81
+-36
+5
+55
+-43
+46
+-23
+6
+-76
+-66
+32
+-91
+63
+6
+-82
+73
+24
+3
+92
+11
+26
+90
+31
+98
+-37
+45
+-3
+87
+82
+-18
+11
+-99
+-1
+53
+56
+56
+-49
+86
+-18
+-73
+72
+6
+-63
+35
+-20
+-93
+-39
+
+```
+Output
+```
+The nicest part of route 1 is between stops 1 and 4
+The nicest part of route 2 is between stops 3 and 8
+The nicest part of route 3 is between stops 1 and 8
+The nicest part of route 4 is between stops 2 and 5
+The nicest part of route 5 is between stops 1 and 4
+The nicest part of route 6 is between stops 5 and 6
+The nicest part of route 7 is between stops 2 and 5
+The nicest part of route 8 is between stops 1 and 10
+The nicest part of route 9 is between stops 3 and 10
+The nicest part of route 10 is between stops 2 and 5
+```
 ## Dynamic Programming
 In computer science, mathematics, management science, economics and bioinformatics, dynamic programming (also known as dynamic optimization) is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions. The next time the same subproblem occurs, instead of recomputing its solution, one simply looks up the previously computed solution, thereby saving computation time at the expense of a (hopefully) modest expenditure in storage space. (Each of the subproblem solutions is indexed in some way, typically based on the values of its input parameters, so as to facilitate its lookup.) The technique of storing solutions to subproblems instead of recomputing them is called "memoization".
 
