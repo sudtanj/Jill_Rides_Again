@@ -14,6 +14,6 @@ A greedy algorithm is an algorithmic paradigm that follows the problem solving h
 
 ### Brute Force Algorithm
 
-## Dynamic Algorithm
+## Dynamic Programming
 
 ### Kadane’s Algorithm
