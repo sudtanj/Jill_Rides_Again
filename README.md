@@ -11,6 +11,7 @@ A problem analysis project about Maximum Subarray Problem in Universitas Pelita 
 
 ## Problem Document
 <a href="https://uva.onlinejudge.org/external/5/507.pdf"><img src="http://clickhowto.com/wp-content/uploads/2017/10/Compatibility_Adobe_PDF_Logo.jpg" width="100" height="100"/></a>
+<a href="https://github.com/sudtanj/Jill_Rides_Again/raw/master/paper/Principle_Greedy.pdf"><img src="http://clickhowto.com/wp-content/uploads/2017/10/Compatibility_Adobe_PDF_Logo.jpg" width="100" height="100"/></a>
 
 ## Greedy Algorithm
 A greedy algorithm is an algorithmic paradigm that follows the problem solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum. In many problems, a greedy strategy does not in general produce an optimal solution, but nonetheless a greedy heuristic may yield locally optimal solutions that approximate a global optimal solution in a reasonable time.
