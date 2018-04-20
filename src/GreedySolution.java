@@ -14,22 +14,19 @@ class GreedySolution {
 	
 	public void solve() {
 		Integer currSum=0,minValue=0,i,j,maxSum;
-		for(maxSum=i=0;i<this.road.size();i++) 
-			for(currSum=0,j=i;j<this.road.size();j++) {
-				currSum +=road.get(j);
-				if(currSum>maxSum) {
-					maxSum=currSum;
-					minValue=i+1;
-				}
+		for(maxSum=i=0;i<this.road.size();i++) {
+			currSum+=this.road.get(i);
+			if(currSum<0) {
+				minValue=i+1;
+				currSum=0;
 			}
-		this.minValue=minValue;
-		this.maxSum=maxSum;
-		if(minValue.equals(this.road.size())) 
-			maxValue=minValue+1;
-		
-		else 
-			maxValue=this.road.size();
-	
+		}
+		this.minValue=minValue+1;
+		this.maxValue=this.road.size();
+		if(this.minValue.equals(this.maxValue)) {
+			this.maxValue++;
+		}
+		this.maxSum=currSum;
 	}
 
 	@Override
